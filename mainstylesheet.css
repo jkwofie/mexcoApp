@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+}
+
+div.container {
+    width:100%;
+}
+
+header:nth-of-child()  {
+
+ }
+
+ .wrapper:after{
+   content: "";
+   clear: both;
+   display: block;
+ }
+  img.header{
+ 	display: block;
+ 	float: left;
+ }
+ nav{
+ 	clear: both;
+ 	content: "";
+ 	display: block;
+ }
+ nav ul{
+  	padding: 0px;
+	margin: 0px;
+ }
+ nav ul li{
+ 	margin: 0px;
+ 	background:#456037; 
+ 	list-style:none; 
+ 	padding:7px 0px; 
+ }
+ a{
+     text-decoration: none;
+     line-height:2px;
+     text-transform: capitalize;
+     font-family: arial;
+
+ }
+ /** desktop view **/
+
+ @media only screen 
